@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sipariş Sayfası</title>
+</head>
+<body>
+    <div class="book">
+        <!-- Kitap içeriği -->
+        <a href="siparis-form.html"></a>
+
+    </div>
+    <h1>Sipariş Sayfası</h1>
+    
+    
+    <form>
+        <label for="ad">Adınız:</label>
+        <input type="text" id="ad" name="ad" required><br><br>
+        
+        <label for="adres">Adresiniz:</label>
+        <textarea id="adres" name="adres" required></textarea><br><br>
+        
+        <label for="telefon">Telefon Numaranız:</label>
+        <input type="tel" id="telefon" name="telefon" required><br><br>
+        
+        <label for="odeme">Ödeme Yöntemi:</label>
+        <select id="odeme" name="odeme" required>
+            <option value="kredi_karti">Kredi Kartı</option>
+            <option value="havale">Havale</option>
+            <option value="kapida_odeme">Kapıda Ödeme</option>
+        </select><br><br>
+        
+        <input type="submit" value="Siparişi Tamamla">
+    </form>
+</body>
+</html>
